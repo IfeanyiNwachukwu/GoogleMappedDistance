@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMap.Library", "GoogleMaps.Library\GoogleMap.Library\GoogleMap.Library.csproj", "{90A0DAFE-EEB2-4990-A10F-323BFEABB643}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoogleMap.Library", "GoogleMaps.Library\GoogleMap.Library\GoogleMap.Library.csproj", "{90A0DAFE-EEB2-4990-A10F-323BFEABB643}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mapped.Api", "Mapped.API\Mapped.Api\Mapped.Api.csproj", "{1C904067-2326-4BD4-A907-C250D6876767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mapped.Api", "Mapped.API\Mapped.Api\Mapped.Api.csproj", "{1C904067-2326-4BD4-A907-C250D6876767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grpc_tester", "GrpcTester\grpc_tester\grpc_tester.csproj", "{7A12B412-E391-4F14-8381-641133BDE7CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{1C904067-2326-4BD4-A907-C250D6876767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C904067-2326-4BD4-A907-C250D6876767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C904067-2326-4BD4-A907-C250D6876767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A12B412-E391-4F14-8381-641133BDE7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A12B412-E391-4F14-8381-641133BDE7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A12B412-E391-4F14-8381-641133BDE7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A12B412-E391-4F14-8381-641133BDE7CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
